@@ -20,10 +20,10 @@
 
 
   <!--Icon-->
-  <link rel="icon" type="image/x-icon" href="{{asset ('../resources/img/Isotipo_cerceta.ico') }}">
-      <link rel="stylesheet" href="{{asset ('../resources/css/inicio.css')}}">
+  <link rel="icon" type="image/x-icon" href="{{asset ('img/Isotipo_cerceta.ico') }}">
+      <link rel="stylesheet" href="{{asset ('css/inicio.css')}}">
 
-  <link href="{{asset ('../resources/css/monumentos.css') }}" rel="stylesheet"> 
+  <link href="{{asset ('css/monumentos.css') }}" rel="stylesheet"> 
 
 
   <!-- Bootstrap 
@@ -72,7 +72,7 @@
 
   <!-- Custom Theme Style 
   <link href="{{ asset('vendors/build/css/custom.min.css') }}" rel="stylesheet">-->
-  <link rel="stylesheet" href="{{asset ('../resources/css/global.css')}}">
+  <link rel="stylesheet" href="{{asset ('css/global.css')}}">
 </head>
 
 <body class="nav-md footer_fixed">
@@ -93,7 +93,7 @@
         </footer>
          /footer content -->
 
-    <script language="JavaScript" type="text/javascript" src="{{asset ('../resources/js/global.js')}}"></script>
+    <script language="JavaScript" type="text/javascript" src="{{asset ('js/global.js')}}"></script>
   <!-- jQuery -->
   <script src="{{ asset('vendors/jquery/dist/jquery.min.js') }}"></script>
   

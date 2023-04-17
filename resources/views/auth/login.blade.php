@@ -1,8 +1,8 @@
 
 <head>
-<link rel="icon" type="image/x-icon" href="{{asset ('../resources/img/Isotipo_cerceta.ico') }}">
-<link rel="stylesheet" href="{{asset ('../resources/css/inicio.css')}}">
-<link rel="stylesheet" href="{{asset ('../resources/css/global.css')}}">
+<link rel="icon" type="image/x-icon" href="{{asset ('img/Isotipo_cerceta.ico') }}">
+<link rel="stylesheet" href="{{asset ('css/inicio.css')}}">
+<link rel="stylesheet" href="{{asset ('css/global.css')}}">
 <title>ViewTMonument</title>
 
 </head>
@@ -12,8 +12,8 @@
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
-            <a href="../public">
-            <img class="w-20 h-20" src="../resources/img/Isotipo_cerceta.svg" alt="logotipo">
+            <a href="/">
+            <img class="w-20 h-20" src="img/Isotipo_cerceta.svg" alt="logotipo">
             </a>
         </x-slot>
 
@@ -74,4 +74,4 @@
 <?php
     include("../resources/views/include/footer.php");
     ?>
-<script language="JavaScript" type="text/javascript" src="{{asset ('../resources/js/global.js')}}"></script>
+<script language="JavaScript" type="text/javascript" src="{{asset ('js/global.js')}}"></script>

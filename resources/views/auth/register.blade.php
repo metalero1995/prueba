@@ -1,7 +1,7 @@
 <head>
-    <link rel="icon" type="image/x-icon" href="{{asset ('../resources/img/Isotipo_cerceta.ico') }}">
-    <link rel="stylesheet" href="{{asset ('../resources/css/inicio.css')}}">
-    <link rel="stylesheet" href="{{asset ('../resources/css/global.css')}}">
+    <link rel="icon" type="image/x-icon" href="{{asset ('img/Isotipo_cerceta.ico') }}">
+    <link rel="stylesheet" href="{{asset ('css/inicio.css')}}">
+    <link rel="stylesheet" href="{{asset ('css/global.css')}}">
     <title>ViewTMonument</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
@@ -11,8 +11,8 @@
     <div style="margin-bottom: 30px; margin-top: 30px;">
         <x-auth-card>
             <x-slot name="logo">
-                <a href="../public">
-                    <img class="w-20 h-20" src="../resources/img/Isotipo_cerceta.svg" alt="logotipo">
+                <a href="/">
+                    <img class="w-20 h-20" src="img/Isotipo_cerceta.svg" alt="logotipo">
                 </a>
             </x-slot>
             <form method="POST" action="{{ route('register') }}">
@@ -187,4 +187,4 @@ include("../resources/views/include/footer.php");
 
     }
 </script>
-<script language="JavaScript" type="text/javascript" src="{{asset ('../resources/js/global.js')}}"></script>
+<script language="JavaScript" type="text/javascript" src="{{asset ('js/global.js')}}"></script>

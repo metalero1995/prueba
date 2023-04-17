@@ -8,9 +8,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-    <link rel="icon" type="image/x-icon" href="{{asset ('../resources/img/Isotipo_cerceta.ico') }}">
-    <link rel="stylesheet" href="{{asset ('../resources/css/perfilusuario.css')}}">
-    <link rel="stylesheet" href="{{asset ('../resources/css/global.css')}}">
+    <link rel="icon" type="image/x-icon" href="{{asset ('img/Isotipo_cerceta.ico') }}">
+    <link rel="stylesheet" href="{{asset ('css/perfilusuario.css')}}">
+    <link rel="stylesheet" href="{{asset ('css/global.css')}}">
 
     <script src="https://kit.fontawesome.com/a8d4026847.js" crossorigin="anonymous"></script>
 
@@ -143,7 +143,7 @@
 
     @include('include.footer_logged')
 
-    <script language="JavaScript" type="text/javascript" src="{{asset ('../resources/js/global.js')}}"></script>
+    <script language="JavaScript" type="text/javascript" src="{{asset ('js/global.js')}}"></script>
 
 </body>
 

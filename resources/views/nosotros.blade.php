@@ -9,9 +9,9 @@
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <title>ViewTMonument</title>
-    <link rel="icon" type="image/x-icon" href="{{asset ('../resources/img/Isotipo_cerceta.ico') }}">
-    <link rel="stylesheet" href="{{asset ('../resources/css/nosotros.css')}}">
-    <link rel="stylesheet" href="{{asset ('../resources/css/global.css')}}">
+    <link rel="icon" type="image/x-icon" href="{{asset ('img/Isotipo_cerceta.ico') }}">
+    <link rel="stylesheet" href="{{asset ('css/nosotros.css')}}">
+    <link rel="stylesheet" href="{{asset ('css/global.css')}}">
 </head>
 
 <body>
@@ -32,7 +32,7 @@
         </div>
         <div>
             <div class="escenario_terciario_izquierda">
-                <img class="info_imagenes" src="{{asset ('../resources/img/raul_foto_final.png')}}" alt="">
+                <img class="info_imagenes" src="{{asset ('img/raul_foto_final.png')}}" alt="">
                 <div class="contenedor_texto_izquierda">
                     <p class="pre_titulo_terciario">Gestor de base de datos</p>
                     <h3 class="titulo_terciario">Raul de la Rosa Gamboa</h3>
@@ -42,7 +42,7 @@
         </div>
         <div>
             <div class="escenario_terciario_derecha">
-                <img class="info_imagenes" src="{{asset ('../resources/img/angel_foto_final.png')}}" alt="">
+                <img class="info_imagenes" src="{{asset ('img/angel_foto_final.png')}}" alt="">
                 <div class="contenedor_texto_derecha">
                     <p class="pre_titulo_terciario">Documentador/Programador</p>
                     <h3 class="titulo_terciario">Angel Celis Canul</h3>
@@ -53,7 +53,7 @@
         <div>
             <div class="escenario_terciario_izquierda">
                 <div>
-                    <img class="info_imagenes" src="{{asset ('../resources/img/leo_foto_final.png')}}" alt="">
+                    <img class="info_imagenes" src="{{asset ('img/leo_foto_final.png')}}" alt="">
                 </div>
                 <div class="contenedor_texto_izquierda">
                     <p class="pre_titulo_terciario">Director de proyecto</p>
@@ -65,7 +65,7 @@
         <div>
             <div class="escenario_terciario_derecha">
                 <div>
-                    <img class="info_imagenes" src="{{asset ('../resources/img/jeroan_foto_final.png')}}" alt="">
+                    <img class="info_imagenes" src="{{asset ('img/jeroan_foto_final.png')}}" alt="">
                 </div>
                 <div class="contenedor_texto_derecha">
                     <p class="pre_titulo_terciario">Programador backend</p>
@@ -77,7 +77,7 @@
         <div>
             <div class="escenario_terciario_izquierda">
                 <div>
-                    <img class="info_imagenes" src="{{asset ('../resources/img/jose_foto_final.png')}}" alt="">
+                    <img class="info_imagenes" src="{{asset ('img/jose_foto_final.png')}}" alt="">
                 </div>
                 <div class="contenedor_texto_izquierda">
                     <p class="pre_titulo_terciario">Documentador</p>
@@ -91,7 +91,7 @@
     <?php
     include("../resources/views/include/footer.php");
     ?>
-    <script language="JavaScript" type="text/javascript" src="{{asset ('../resources/js/global.js')}}"></script>
+    <script language="JavaScript" type="text/javascript" src="{{asset ('js/global.js')}}"></script>
 </body>
 
 </html>

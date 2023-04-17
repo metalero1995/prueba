@@ -2,10 +2,10 @@
 <header class="seguidor">
     
     <nav class="botones_generales">
-        <a href="../public/" class="logo"><img src="../resources/views/layouts/Logotipo_cerceta.svg" alt="logotipo"></a>
+        <a href="/" class="logo"><img src="img/Logotipo_cerceta.svg" alt="logotipo"></a>
         <button class="toggle">⚌</button>
         <div class="botonesFormatoFila desplegar_principal">
-            <a href="../public/" class="botonNav">Inicio</a>
+            <a href="/" class="botonNav">Inicio</a>
             <div class="separador">
                 <hr class="lineaVertical">
                 </hr>

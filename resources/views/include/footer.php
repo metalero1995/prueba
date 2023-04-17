@@ -1,6 +1,6 @@
 <footer class="abajo">
         <nav class="botones_generales_footer">
-            <a href="../public/" class="logo_footer"><img src="../resources/views/layouts/Logotipo_crema.svg" alt="logotipo"></a>
+            <a href="/" class="logo_footer"><img src="img/Logotipo_crema.svg" alt="logotipo"></a>
             <div class="botonesFormatoFila_footer">
                 <a href="privacidad" class="botonNav_footer">Privacidad</a>
                 <div class="separador_footer">

@@ -7,9 +7,9 @@
     <!--Volver la página un poco responsive-->
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <!-- Mandar a llamar a las hojas de estilo a usar-->
-    <link rel="icon" type="image/x-icon" href="{{asset ('../resources/img/Isotipo_cerceta.ico') }}">
-    <link rel="stylesheet" href="{{asset ('../resources/css/privacidad_galletas.css')}}">
-    <link rel="stylesheet" href="{{asset ('../resources/css/global.css')}}">
+    <link rel="icon" type="image/x-icon" href="{{asset ('img/Isotipo_cerceta.ico') }}">
+    <link rel="stylesheet" href="{{asset ('css/privacidad_galletas.css')}}">
+    <link rel="stylesheet" href="{{asset ('css/global.css')}}">
     
     <title>ViewTMonument</title>
 </head>
@@ -237,6 +237,6 @@
     include("../resources/views/include/footer.php");
     ?>
 </body>
-<script language="JavaScript" type="text/javascript" src="{{asset ('../resources/js/global.js')}}"></script>
+<script language="JavaScript" type="text/javascript" src="{{asset ('js/global.js')}}"></script>
 
 </html>

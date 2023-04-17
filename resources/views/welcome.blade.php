@@ -10,9 +10,9 @@
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- Fonts -->
-    <link rel="icon" type="image/x-icon" href="{{asset ('../resources/img/Isotipo_cerceta.ico') }}">
-    <link rel="stylesheet" href="{{asset ('../resources/css/inicio.css')}}">
-    <link rel="stylesheet" href="{{asset ('../resources/css/global.css')}}">
+    <link rel="icon" type="image/x-icon" href="{{asset ('img/Isotipo_cerceta.ico') }}">
+    <link rel="stylesheet" href="{{asset ('css/inicio.css')}}">
+    <link rel="stylesheet" href="{{asset ('css/global.css')}}">
 
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css" rel="stylesheet">
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js"></script>
@@ -84,7 +84,7 @@
                     <p class="parrafos">
                         Explora los monumentos de tu ciudad, descubre su historia, el año de su construcción, su ubicación y visita los mismos. Además de disfrutar de una experiencia cultural, aprenderás más sobre tu ciudad y su patrimonio.
                 </div>
-                <img class="info_imagenes" src="{{asset ('../resources/img/azteca_1_1000x1000.png')}}">
+                <img class="info_imagenes" src="{{asset ('img/azteca_1_1000x1000.png')}}">
             </div>
             <span class="acomodo_general_2">
                 <div class="acomodo_segundo">
@@ -92,7 +92,7 @@
                     <p class="parrafos">
                         Disfruta de una experiencia inmersiva al escanear los monumentos de tu ciudad con la cámara de tu dispositivo móvil. Utilizando la tecnología de reconocimiento de imagen, la aplicación te brindará información detallada sobre cada monumento, incluyendo su historia, el año de su construcción y su ubicación exacta. </p>
                 </div>
-                <img class="info_imagenes" src="{{asset ('../resources/img/azteca_2_1000x1000.png')}}">
+                <img class="info_imagenes" src="{{asset ('img/azteca_2_1000x1000.png')}}">
             </span>
         </div>
         <!--Modales las pantallas de la información de la página-->
@@ -108,8 +108,8 @@
     include("../resources/views/include/footer.php");
     ?>
 </body>
-<script language="JavaScript" type="text/javascript" src="{{asset ('../resources/js/inicio.js')}}"></script>
-<script language="JavaScript" type="text/javascript" src="{{asset ('../resources/js/global.js')}}"></script>
+<script language="JavaScript" type="text/javascript" src="{{asset ('js/inicio.js')}}"></script>
+<script language="JavaScript" type="text/javascript" src="{{asset ('js/global.js')}}"></script>
 <script>
     let comentariosMax = 0;
     let idMonumentoGuardado = 0;

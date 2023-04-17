@@ -59,6 +59,8 @@ echo "en home";
                 <div class="x_content">
                     <br />
                     <form id="demo-form2" name="frmregistra" action="{{route('reporte.store')}}" method="post" data-parsley-validate class="form-horizontal form-label-left">
+                    @csrf
+
                         <div class="form-group">
                             <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Correo electrónico <span class="required">*</span>
                             </label>

@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-    <link rel="icon" type="image/x-icon" href="{{asset ('../resources/img/Isotipo_cerceta.ico') }}">
-    <link rel="stylesheet" href="{{asset ('../resources/css/contacto.css')}}">
-    <link rel="stylesheet" href="{{asset ('../resources/css/global.css')}}">
+    <link rel="icon" type="image/x-icon" href="{{asset ('img/Isotipo_cerceta.ico') }}">
+    <link rel="stylesheet" href="{{asset ('css/contacto.css')}}">
+    <link rel="stylesheet" href="{{asset ('css/global.css')}}">
 
 
     <title>ViewTMonument</title>
@@ -51,7 +51,7 @@
     <?php
     include("../resources/views/include/footer.php");
     ?>
-    <script language="JavaScript" type="text/javascript" src="{{asset ('../resources/js/global.js')}}"></script>
+    <script language="JavaScript" type="text/javascript" src="{{asset ('js/global.js')}}"></script>
 
 </body>
 

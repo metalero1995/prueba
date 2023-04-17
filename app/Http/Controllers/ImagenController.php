@@ -70,13 +70,17 @@ class ImagenController extends Controller
             return redirect()->route('imagenes.create')->withInput()->with('error', 'Es obligatorio subir una imagen.');
         }
         $data->descripcion_imagen = $request->descripcion_imagen;
-        $busqueda = DB::table('imagenes')->where('id_imagenes', $request->id_imagenes);
-        if ($busqueda == true) {
-           if ($request->tipo_imagen == 1) {
+
+        //Llamamos tabla imagen y traemos de la tabla una imagen que tenga el mismo id que le estamos enviando por el request
+        $busqueda = DB::table('imagenes')
+            ->where('id_monumento', $request->id_monumento)
+            ->where('tipo_imagen', 1);
+
+        if ($request->tipo_imagen == 1) {
+            if ($busqueda->count() != 0) {
                 return redirect()->route('imagenes.create')->withInput()->with('error', 'Solo se puede agregar una imagen en la relación de aspecto 1:1.');
             }
         }
-
         $data->tipo_imagen = $request->tipo_imagen;
         $data->save();
 
